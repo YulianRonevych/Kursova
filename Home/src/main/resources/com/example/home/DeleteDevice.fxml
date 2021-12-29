@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.home.Controller">
+   <children>
+      <Button fx:id="DeleteButton1" layoutX="156.0" layoutY="383.0" mnemonicParsing="false" onAction="#DeleteButton1" text="Delete" />
+      <Button fx:id="ReturnButton1" layoutX="156.0" layoutY="446.0" mnemonicParsing="false" onAction="#ReturnButton1Click" text="return" />
+      <Label layoutX="124.0" layoutY="69.0" text="Delete device" textFill="#f51414">
+         <font>
+            <Font name="Times New Roman Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="InputDelete" alignment="CENTER" layoutX="95.0" layoutY="201.0" promptText="Id" />
+      <Label layoutX="126.0" layoutY="147.0" text="Id of device">
+         <font>
+            <Font name="Times New Roman" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

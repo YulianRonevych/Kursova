@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.home.Controller">
+   <children>
+      <Button fx:id="Calculate" layoutX="268.0" layoutY="283.0" mnemonicParsing="false" onAction="#Calculate" text="Calculate" />
+      <Label fx:id="AvgLabel" layoutX="201.0" layoutY="190.0" text="Power consumption: ">
+         <font>
+            <Font name="Times New Roman" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="141.0" layoutY="84.0" text="Average Power Consumption" textFill="RED">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="ReturnButton1" layoutX="276.0" layoutY="334.0" mnemonicParsing="false" onAction="#ReturnButton1Click" text="return" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.home.Controller">
+   <children>
+      <Label layoutX="98.0" layoutY="88.0" text="Add new vacuum" textFill="#353f83">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="InputName" alignment="CENTER" layoutX="95.0" layoutY="179.0" promptText="Name" />
+      <TextField fx:id="InputPowerCons" alignment="CENTER" layoutX="94.0" layoutY="236.0" promptText="Power Comsumption" />
+      <TextField fx:id="InputOnOff" alignment="CENTER" layoutX="95.0" layoutY="283.0" promptText="On/Off(1/0)" />
+      <Button fx:id="AddNewVacuum" layoutX="164.0" layoutY="396.0" mnemonicParsing="false" onAction="#AddNewVacuum" text="Add" />
+      <Button fx:id="ReturnButton2" layoutX="156.0" layoutY="438.0" mnemonicParsing="false" onAction="#ReturnButton2Click" text="Return" />
+      <Label fx:id="SuccessVLabel" layoutX="75.0" layoutY="126.0" text="New vacuum added!" textFill="RED" visible="false">
+         <font>
+            <Font name="Times New Roman Bold" size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="InputIsWet" alignment="CENTER" layoutX="95.0" layoutY="331.0" promptText="IsWet(1/0)" />
+   </children>
+</AnchorPane>

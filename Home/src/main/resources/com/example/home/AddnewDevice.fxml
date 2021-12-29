@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.home.Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="101.0" layoutY="59.0" prefHeight="79.0" prefWidth="175.0" text="Add new device" textFill="#4e48c9">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="SpeakerB" layoutX="152.0" layoutY="154.0" mnemonicParsing="false" onAction="#SpeakerButtonClick" text="Speaker" />
+      <Button fx:id="HairDryerB" layoutX="146.0" layoutY="230.0" mnemonicParsing="false" onAction="#HairDryerButtonClick" text="HairDryer" />
+      <Button fx:id="PCB" layoutX="169.0" layoutY="309.0" mnemonicParsing="false" onAction="#PCButtonClick" text="PC" />
+      <Button fx:id="VacuumB" layoutX="151.0" layoutY="381.0" mnemonicParsing="false" onAction="#VacuumButtonClick" text="Vacuum" />
+      <Button fx:id="ReturnButton1" layoutX="156.0" layoutY="441.0" mnemonicParsing="false" onAction="#ReturnButton1Click" text="Return" />
+   </children>
+</AnchorPane>

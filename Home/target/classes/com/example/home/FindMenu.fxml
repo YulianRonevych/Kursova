@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.home.Controller">
+   <children>
+      <Label layoutX="99.0" layoutY="68.0" text="Find Device" textFill="#0f57ff">
+         <font>
+            <Font name="Times New Roman Bold" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="FindName" layoutX="148.0" layoutY="176.0" mnemonicParsing="false" onAction="#FindName" text="By Name" />
+      <Button fx:id="FindCons" layoutX="121.0" layoutY="241.0" mnemonicParsing="false" onAction="#FindCons" text="By Consumption" />
+      <Button fx:id="FindOn" layoutX="133.0" layoutY="301.0" mnemonicParsing="false" onAction="#FindOn" text="By Turned On" />
+      <Button fx:id="ReturnButton1" layoutX="156.0" layoutY="365.0" mnemonicParsing="false" onAction="#ReturnButton1Click" text="return" />
+   </children>
+</AnchorPane>

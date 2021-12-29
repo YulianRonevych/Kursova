@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.home.Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="115.0" layoutY="52.0" prefHeight="39.0" prefWidth="147.0" text="DEVICE" textAlignment="CENTER" textFill="#2c40bf">
+         <font>
+            <Font name="Times New Roman Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="79.0" layoutY="72.0" prefHeight="51.0" prefWidth="219.0" text="TRACKER" textAlignment="CENTER" textFill="#2c40bf">
+         <font>
+            <Font name="Times New Roman Bold" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="AdButton" alignment="CENTER" layoutX="143.0" layoutY="130.0" mnemonicParsing="false" onAction="#AddButtonClick" text="Add device" />
+      <Button fx:id="ListButton" alignment="CENTER" layoutX="147.0" layoutY="183.0" mnemonicParsing="false" onAction="#ListButtonClick" text="Device list" />
+      <Button fx:id="AverageButton" alignment="CENTER" layoutX="89.0" layoutY="236.0" mnemonicParsing="false" onAction="#AverageButtonClick" text="Average power comsuption" wrapText="true" />
+      <Button fx:id="FindButton" alignment="CENTER" layoutX="142.0" layoutY="284.0" mnemonicParsing="false" onAction="#FindButtonClick" text="Find Device" />
+      <Button fx:id="ExitButton" alignment="CENTER" layoutX="167.0" layoutY="438.0" mnemonicParsing="false" onAction="#ExitButtonClick" text="Exit" />
+      <Button fx:id="DeleteButton" alignment="CENTER" layoutX="133.0" layoutY="335.0" mnemonicParsing="false" onAction="#DeleteButtonClick" text="Delete device" />
+      <Button fx:id="TurnButton" alignment="CENTER" layoutX="115.0" layoutY="385.0" mnemonicParsing="false" onAction="#TurnButtonClick" text="Turn On/Off device" />
+   </children>
+   <effect>
+      <DropShadow color="#684949" />
+   </effect>
+</AnchorPane>
